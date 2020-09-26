@@ -10,3 +10,20 @@ div{
     font-size: 10px;
 }
 
+img{
+    margin: auto;
+    display: block;
+    border-color: black;
+    border-width: medium;
+    border-style: dashed;
+    border-radius: 50px;
+}
+
+.list{
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    position: absolute;
+    top: 2px;
+    right: 200px;
+    visibility: visible;
+}
