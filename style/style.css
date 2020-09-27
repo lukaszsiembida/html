@@ -7,7 +7,7 @@ p{
 }
 
 div{
-    font-size: 10px;
+    font-size: 30px;
 }
 
 img{
@@ -26,4 +26,40 @@ img{
     top: 2px;
     right: 200px;
     visibility: visible;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*odnośnik nieodwiedzony*/
+a:link {
+    color: #4CAF50;
+}
+
+/*odnośnik odwiedzony*/
+a:visited {
+    color: #ddc109
+}
+
+/*odnośnik wciśnięty*/
+a:active {
+    color: red;
+}
+
+/*odnośnik, na którym znajduje się kursor*/
+a:hover {
+    color: firebrick;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-weight: bold;
+}
+
+p::first-letter {
+    font-size: 60px;
+}
+
+/*co drugi element listy zmieni kolor tła napisu*/
+li:nth-child(2) {
+    background-color: rebeccapurple;
 }
