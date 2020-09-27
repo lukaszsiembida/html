@@ -2,15 +2,15 @@ body {
     background-color: lightblue;
 }
 
-p{
+p {
     background-color: orange;
 }
 
-div{
+div {
     font-size: 30px;
 }
 
-img{
+img {
     margin: auto;
     display: block;
     border-color: black;
@@ -19,7 +19,7 @@ img{
     border-radius: 50px;
 }
 
-.list{
+.list {
     list-style-type: upper-roman;
     list-style-position: inside;
     position: absolute;
